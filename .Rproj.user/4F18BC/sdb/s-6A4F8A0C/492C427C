@@ -1,0 +1,17 @@
+{
+    "contents" : "myfunction <- function() {\n  x <- rnorm(100)\n  mean(x)\n}",
+    "created" : 1417980283374.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1966431610",
+    "id" : "492C427C",
+    "lastKnownWriteTime" : 1417980362,
+    "path" : "F:/documents/Jure/Dev/R/datasciencecoursera/scripts/mycode.R",
+    "project_path" : "scripts/mycode.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

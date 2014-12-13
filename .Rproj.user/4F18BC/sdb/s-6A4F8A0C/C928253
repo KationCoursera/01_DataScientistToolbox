@@ -1,0 +1,17 @@
+{
+    "contents" : "add2 <- function(x,y) {\n  x+y\n}\n\naboveN <- function(x,N = 10) {\n  use <- x > N\n  x[use]\n}\n\ncolumnmean <- function(x, removeNA = TRUE) {\n  \n  nc <- ncol(x)\n  means <- numeric(nc)\n  \n  for(i in 1:nc) {\n    means[i] <- mean(x[,i], na.rm = removeNA)\n  }\n  \n  means\n  \n}\n\ncube <- function(x,n) {\n  x^3\n}\n\nx <- 1:10\nif (x > 5) {\n  x <- 0\n}\n\nf <- function(x) {\n  g <- function(y) {\n    y + z\n  }\n  z <- 4\n  x + g(x)\n}\n\n\n\n",
+    "created" : 1418463561908.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "872106611",
+    "id" : "C928253",
+    "lastKnownWriteTime" : 1418472269,
+    "path" : "F:/documents/Jure/Dev/R/datasciencecoursera/scripts/function_code.R",
+    "project_path" : "scripts/function_code.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
